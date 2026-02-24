@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Inter:wght@400;600;800&display=swap');
+
+@theme {
+  --color-saffron: #FF9933;
+  --color-white: #FFFFFF;
+  --color-green: #138808;
+  --color-navy: #000080;
+
+  /* Official Government Palette */
+  --color-gov-gold: #FFD700;
+  --color-gov-saffron: #FF8F1C;
+  --color-gov-green: #006400;
+  --color-gov-navy-dark: #000033;
+  --color-parchment: #FDF5E6;
+  --color-glass-white: rgba(255, 255, 255, 0.85);
+  --color-glass-border: rgba(0, 0, 128, 0.15);
+}
+
+body {
+  background: var(--color-parchment);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    radial-gradient(circle at 50% 50%, rgba(0, 0, 128, 0.03) 0%, transparent 60%);
+  color: var(--color-gov-navy-dark);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+body::before {
+  content: 'ELECTION COMMISSION OF INDIA';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  font-family: 'Merriweather', serif;
+  font-size: 8rem;
+  font-weight: 900;
+  color: var(--color-navy);
+  opacity: 0.02;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--color-saffron), var(--color-green));
+  border-radius: 10px;
+}
+
+/* Premium Glassmorphism */
+.glass-premium {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--color-glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 128, 0.08);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

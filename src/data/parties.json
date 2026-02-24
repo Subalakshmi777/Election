@@ -1,0 +1,126 @@
+{
+    "parties": [
+        {
+            "id": "dmk",
+            "name": "Dravida Munnetra Kazhagam",
+            "shortName": "DMK",
+            "symbol": "Rising Sun",
+            "cmCandidate": "M.K. Stalin",
+            "slogans": [
+                "Ondrinaivom Vaa",
+                "Stalindhaan Vararu",
+                "Vidiyalum Nokki"
+            ]
+        },
+        {
+            "id": "aiadmk",
+            "name": "All India Anna Dravida Munnetra Kazhagam",
+            "shortName": "AIADMK",
+            "symbol": "Two Leaves",
+            "cmCandidate": "Edappadi K. Palaniswami",
+            "slogans": [
+                "Vetri Nadai Podum Thamizhagam",
+                "Amma Atchi"
+            ]
+        },
+        {
+            "id": "bjp",
+            "name": "Bharatiya Janata Party",
+            "shortName": "BJP",
+            "symbol": "Lotus",
+            "cmCandidate": "Narendra Modi / Annamalai (State)",
+            "slogans": [
+                "Abki Baar 400 Paar",
+                "Phir Ek Baar Modi Sarkar",
+                "En Mann En Makkal"
+            ]
+        },
+        {
+            "id": "inc",
+            "name": "Indian National Congress",
+            "shortName": "INC",
+            "symbol": "Hand",
+            "cmCandidate": "Rahul Gandhi / Mallikarjun Kharge",
+            "slogans": [
+                "Bharat Jodo Yatra",
+                "Nyay Yatra"
+            ]
+        },
+        {
+            "id": "aap",
+            "name": "Aam Aadmi Party",
+            "shortName": "AAP",
+            "symbol": "Broom",
+            "cmCandidate": "Arvind Kejriwal",
+            "slogans": [
+                "Janata Ki Sarkar",
+                "Education and Health priority"
+            ]
+        },
+        {
+            "id": "tmc",
+            "name": "All India Trinamool Congress",
+            "shortName": "TMC",
+            "symbol": "Flowers and Grass",
+            "cmCandidate": "Mamata Banerjee",
+            "slogans": [
+                "Maa Mati Manush",
+                "Khela Hobe"
+            ]
+        },
+        {
+            "id": "tvk",
+            "name": "Tamilaga Vettri Kazhagam",
+            "shortName": "TVK",
+            "symbol": "Flag (with Two Elephants)",
+            "cmCandidate": "Vijay",
+            "slogans": [
+                "Pirappokkum Ella Uyirkkum",
+                "Vetri Nichayam"
+            ]
+        },
+        {
+            "id": "cpim",
+            "name": "Communist Party of India (Marxist)",
+            "shortName": "CPI(M)",
+            "symbol": "Hammer Sickle and Star",
+            "cmCandidate": "Sitaram Yechury",
+            "slogans": [
+                "Lal Salaam",
+                "Pro-Worker India"
+            ]
+        },
+        {
+            "id": "ntk",
+            "name": "Naam Tamilar Katchi",
+            "shortName": "NTK",
+            "symbol": "Sugarcane Farmer",
+            "cmCandidate": "Seeman",
+            "slogans": [
+                "Vellum Thamizhar",
+                "Thamizhar Atchi"
+            ]
+        }
+    ],
+    "keywords": [
+        "election",
+        "vote",
+        "party",
+        "symbol",
+        "candidate",
+        "cm",
+        "chief minister",
+        "manifesto",
+        "slogan",
+        "polling",
+        "ballot",
+        "mla",
+        "mp",
+        "constituency",
+        "democracy",
+        "voter",
+        "result",
+        "count",
+        "government"
+    ]
+}
